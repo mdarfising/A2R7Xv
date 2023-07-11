@@ -163,7 +163,7 @@ logo=("""\033[1;97m
 →   Facebook   :  Md. Abdur Rahman 
 →   Github     :  A2R7X
 →   Tool Type  :  \x1b[1;91mFREE
-\x1b[1;97m→   Version    :  1.1
+\x1b[1;97m→   Version    :  1.2
 \33[1;37m----------------------------------------------""")
 def linex():
 	print('\33[1;37m----------------------------------------------')
@@ -397,10 +397,10 @@ def rifat1():
 	print(logo)
 	print('\x1b[1;97m[1] Pak Random Method \x1b[1;92m[1]')
 	print('\x1b[1;97m[2] Pak Random Method \x1b[1;92m[2]')
-	print('\x1b[1;97m[3] Pak Random Method \x1b[1;92m[3]')
-	print('\x1b[1;97m[4] Pak Random Method \x1b[1;92m[4]')
-	print('\x1b[1;97m[5] Pak Random Method \x1b[1;92m[5]')
-	print('\x1b[1;97m[6] Pak Random Method \x1b[1;92m[6]')
+	
+	
+	
+	
 	print('\x1b[1;91m[7] Go to main menu')
 	linex()
 	opt = input('[√] SELECT OPT: ')
@@ -408,14 +408,9 @@ def rifat1():
 		random_number1()
 	elif opt =='2':
 		random_number2()
-	elif opt =='3':
-		random_number3()
-	elif opt =='4':
-		random_number4()
-	if opt =='5':
-		random_number5()
-	if opt =='6':
-		random_number6()
+	
+	
+	
 	
 	else:
 		print('\n\033[1;31mChoose valid option\033[0;97m')
@@ -427,7 +422,7 @@ def random_number1():
 	print(logo)
 	print('[√] EXAMPLE :92318,92345,92323,92306.ETC')
 	linex()
-	kode = input('[+]\033[1;37m PUT YOUR SIM CODE : ')
+	kode = input('[+]\033[1;37m  SIM CODE : ')
 	os.system('clear')
 	print(logo)
 	print(' Example : 1000,5000,10000,****Etc')
@@ -442,7 +437,7 @@ def random_number1():
 		tl = str(len(uid))
 		print(' Total Acounts : '+tl)
 		print(' Selected Code : \x1b[1;92m'+kode)
-		print('\x1b[1;91m If you no result use flight mode')
+		print('\x1b[1;91m If you No Result on/off Airplane  mode')
 		linex()
 		for guru in uid:
 			uid = kode+guru
@@ -494,7 +489,7 @@ def bd():
 	print(logo)
 	print('\x1b[1;97m[1] BD Randm Method\x1b[1;92m [1]')
 	print('\x1b[1;97m[2] BD Randm Method \x1b[1;92m[2]')
-	print('\x1b[1;97m[3] BD Randm Method \x1b[1;92m[3]')
+	
 	print('\x1b[1;91m[4] Go to main menu')
 	linex()
 	rifat=input('Select option :')
@@ -650,7 +645,7 @@ def bd1():
 	uid=[]
 	os.system('clear')
 	print(logo)
-	print('[√] EXAMPLE : 88***,88***,88***,.ETC')
+	print('[√] EXAMPLE : 017,018,019,016,015.ETC')
 	linex()
 	kode = input('[+]\033[1;37m PUT YOUR SIM CODE : ')
 	os.system('clear')
@@ -684,7 +679,7 @@ def bd2():
 	uid=[]
 	os.system('clear')
 	print(logo)
-	print('[√] EXAMPLE : 88***,88***,88***,.ETC')
+	print('[√] EXAMPLE : 017,018,019,016,015,.ETC')
 	linex()
 	kode = input('[+]\033[1;37m PUT YOUR SIM CODE : ')
 	os.system('clear')
@@ -717,7 +712,7 @@ def bd3():
 	uid=[]
 	os.system('clear')
 	print(logo)
-	print('[√] EXAMPLE : 88***,88***,88***,.ETC')
+	print('[√] EXAMPLE : 017,018,019,016,015,.ETC')
 	linex()
 	kode = input('[+]\033[1;37m PUT YOUR SIM CODE : ')
 	os.system('clear')
